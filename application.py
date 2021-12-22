@@ -19,7 +19,7 @@ def load_lottieurl(url: str):
 
 url = "https://assets6.lottiefiles.com/private_files/lf30_bb9bkg1h.json"
 res_json = load_lottieurl(url)
-st_lottie(res_jason)
+st_lottie(res_json)
 
 def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US"
