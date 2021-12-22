@@ -1,4 +1,4 @@
-﻿altair==4.1.0
+altair==4.1.0
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 astor==0.8.1
@@ -82,3 +82,4 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.2
 wincertstore==0.2
+streamlit-lottie
