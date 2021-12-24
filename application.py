@@ -35,7 +35,7 @@ st.title("Movie Recommendation System :popcorn:")
 selected_movies_name = st.selectbox(
     "Select the name of last movie you watched  👇", movies['title'].values)
 
-num = st.slider('Number of Movies to select from?', 1, 10, 5)
+num = st.slider('Number of Movies to Recommend', 1, 10, 5)
 
 def recommend(movie):
     movies_index = movies[movies['title'] == movie].index[0]
